@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* ============================================ */
+
+:root {
+    --bitOrange: #F7931A;
+    --softOrange: #FFE9D5;
+    --secBlue: #1A9AF7;
+    --softBlue: #E7F5FF;
+    --wBlack: #201E1C;
+    --wBlack-1: #282623;
+    --grey: #BABABA;
+    --offWhite: #FAF8F7;
+    --white: #FFFFFF;
+}
+
+/*
+Convención Recomendada
+1. Posicionamiento
+2. Modelo de Caja
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+
+/* ============================================ */
+
