@@ -34,3 +34,66 @@ Convención Recomendada
 
 /* ============================================ */
 
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+
+.header > img {
+    width: 15rem;
+    margin-top: 8rem;
+    align-self: center;
+}
+
+.header__ttl-cont {
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    margin-top: 3rem;
+    text-align: center;
+    align-self: center;
+}
+
+.header__ttl-cont > h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--white);
+}
+
+.header__ttl-cont > p {
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--softOrange);
+}
+
+.header__btt {
+    position: absolute;
+    display: block;
+    top: 30.5rem;
+    left: calc(50% - calc(22.9rem / 2));
+    padding: 1.5rem;
+    width: 22.9rem;
+    height: 4.8rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--wBlack);
+    background-color: var(--offWhite);
+    border-radius: .4rem;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.header__btt > span {
+    margin-left: 1.4rem;
+}
