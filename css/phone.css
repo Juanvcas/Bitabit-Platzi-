@@ -42,8 +42,8 @@ Convención Recomendada
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    height: auto;
     min-width: 320px;
+    height: auto;
     height: 334px;
     text-align: center;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
@@ -104,6 +104,7 @@ Convención Recomendada
 
 .main {
     width: 100%;
+    min-width: 320px;
     height: auto;
     background-color: var(--offWhite);
 }
@@ -343,4 +344,107 @@ Convención Recomendada
     background-color: var(--softBlue);
     border-radius: .5rem;
     color: var(--wBlack-1);
+}
+
+/* 2nd Section */
+
+.main__prod-dtl {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding-top: 6.5rem;
+    padding-bottom: 4.5rem;
+    background-color: var(--wBlack);
+}
+
+.main__prod-dtl > span {
+    position: absolute;
+    width: 4rem;
+    height: 2.5rem;
+    top: calc(-2.5rem / 2);
+    margin: 0 calc(50% - 4rem/2);
+    background-image: url(../src/svg/logo.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.prod-dtl__ttl {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.prod-dtl__ttl > h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--white);
+}
+
+.prod-dtl__ttl > p {
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.prod-dtl__sct {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+/* Cards */
+
+.prod-dtl__card {
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--wBlack-1);
+    border-radius: .5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.prod-dtl__card > span {
+    display: block;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.prod-dtl__card:nth-child(1) > span {
+    background-image: url(../src/svg/clock.svg);
+}
+.prod-dtl__card:nth-child(2) > span {
+    background-image: url(../src/svg/eye.svg);
+}
+.prod-dtl__card:nth-child(3) > span {
+    background-image: url(../src/svg/dollar-sign.svg);
+}
+.prod-dtl__card:nth-child(4) > span {
+    background-image: url(../src/svg/check-circle.svg);
+}
+
+.prod-dtl__card > h3 {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: var(--white);
+}
+
+.prod-dtl__card > p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
 }
