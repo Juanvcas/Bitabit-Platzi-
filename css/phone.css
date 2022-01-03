@@ -18,7 +18,8 @@ html {
     --softBlue: #E7F5FF;
     --wBlack: #201E1C;
     --wBlack-1: #282623;
-    --grey: #BABABA;
+    --gray: #BABABA;
+    --offGray: #757575;
     --offWhite: #FAF8F7;
     --white: #FFFFFF;
 }
@@ -34,6 +35,7 @@ Convención Recomendada
 
 /* ============================================ */
 
+/* Header */
 .header {
     position: relative;
     display: flex;
@@ -96,4 +98,249 @@ Convención Recomendada
 
 .header__btt > span {
     margin-left: 1.4rem;
+}
+
+/* Main */
+
+.main {
+    width: 100%;
+    height: auto;
+    background-color: var(--offWhite);
+}
+
+/* 1st Section */
+
+.main__exch-cont {
+    width: 100%;
+    height: auto;
+    padding-top: 6rem;
+    padding-bottom: 6.5rem;
+    text-align: center;
+}
+
+.main__exch-img {
+    width: 19.5rem;
+    height: 19.5rem;
+    margin: 0 auto;
+    background-image: url(../src/svg/Bitcoin.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main__exch-ttl {
+    min-width: 28.8rem;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.main__exch-ttl > h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--wBlack);
+}
+
+.main__exch-ttl > p {
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--offGray);
+}
+
+/* 1st section - table 1 */
+
+.main__exch-tbl-cont {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.main__exch-tbl-cont > h2 {
+    width: 65%;
+    max-width: 40rem;
+    margin: 0 auto;
+    padding-left: 1.2rem;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--bitOrange);
+}
+
+.exch-tbl__cont {
+    width: 65%;
+    max-width: 40rem;
+    height: 16rem;
+    margin: 0 auto;
+    margin-top: 1.2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.exch-tbl {
+    width: 100%;
+    height: 100%;
+}
+
+.exch-tbl__tr {
+    width: 100%;
+    height: 25%;
+}
+
+.exch-tbl__tr td {
+    padding: 0 1.2rem;
+    text-align: left;
+    color: #B5B0AC;
+    background-color: var(--white);
+}
+
+.exch-tbl__tr td:nth-child(1) {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.exch-tbl__tr td:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--offGray);
+}
+
+.exch-tbl__tr span {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.exch-tbl__tr:nth-child(1n) span {
+    background-image: url(../src/svg/trending-down.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.exch-tbl__tr:nth-child(2) span {
+    background-image: url(../src/svg/trending-up.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.exch-tbl__tr:nth-child(1) td:nth-child(1) {
+    border-radius: 1rem 0 0 0;
+}
+.exch-tbl__tr:nth-child(1) td:nth-child(2) {
+    border-radius: 0 1rem 0 0;
+}
+.exch-tbl__tr:nth-child(4) td:nth-child(1) {
+    border-radius: 0 0 0 1rem;
+}
+.exch-tbl__tr:nth-child(4) td:nth-child(2) {
+    border-radius: 0 0 1rem 0;
+}
+
+.exch-tbl__stt {
+    width: 17rem;
+    height: 3rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: .8rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: var(--softOrange);
+    border-radius: .5rem;
+    color: var(--wBlack-1);
+}
+
+/* 1st section - table 2 */
+
+.main__exch-tbl2-cont {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.main__exch-tbl2-cont > h2 {
+    width: 65%;
+    max-width: 40rem;
+    margin: 0 auto;
+    padding-left: 1.2rem;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--secBlue);
+}
+
+.exch-tbl2__cont {
+    width: 65%;
+    max-width: 40rem;
+    height: 16rem;
+    margin: 0 auto;
+    margin-top: 1.2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.exch-tbl2 {
+    width: 100%;
+    height: 100%;
+}
+
+.exch-tbl2__tr {
+    width: 100%;
+    height: 25%;
+}
+
+.exch-tbl2__tr td {
+    padding: 0 1.2rem;
+    text-align: left;
+    color: #B5B0AC;
+    background-color: var(--white);
+}
+
+.exch-tbl2__tr td:nth-child(1) {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.exch-tbl2__tr td:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--offGray);
+}
+
+.exch-tbl2__tr:nth-child(1) td:nth-child(1) {
+    border-radius: 1rem 0 0 0;
+}
+.exch-tbl2__tr:nth-child(1) td:nth-child(2) {
+    border-radius: 0 1rem 0 0;
+}
+.exch-tbl2__tr:nth-child(4) td:nth-child(1) {
+    border-radius: 0 0 0 1rem;
+}
+.exch-tbl2__tr:nth-child(4) td:nth-child(2) {
+    border-radius: 0 0 1rem 0;
+}
+
+.exch-tbl2__stt {
+    width: 17rem;
+    height: 3rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: .8rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: var(--softBlue);
+    border-radius: .5rem;
+    color: var(--wBlack-1);
 }
