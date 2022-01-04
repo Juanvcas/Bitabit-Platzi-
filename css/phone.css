@@ -391,6 +391,8 @@ Convención Recomendada
     color: #808080;
 }
 
+/* Cards */
+
 .prod-dtl__sct {
     width: 90%;
     height: auto;
@@ -398,12 +400,12 @@ Convención Recomendada
     margin-top: 3rem;
 }
 
-/* Cards */
-
 .prod-dtl__card {
     width: 100%;
     max-width: 40rem;
     height: auto;
+    min-height: 15rem;
+    margin: 0 auto;
     margin-top: 1.5rem;
     padding: 1.5rem;
     background-color: var(--wBlack-1);

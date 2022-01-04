@@ -1,0 +1,30 @@
+/* Tablet */
+
+/* Main Exchange */
+
+.main__exch-tbl-cont {
+    display: inline-block;
+    width: 45%;
+}
+
+.main__exch-tbl2-cont {
+    display: inline-block;
+    width: 45%;
+}
+
+/* Main Cards */
+
+.prod-dtl__sct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.prod-dtl__card {
+    width: 45%;
+    margin: 1.5rem .75rem 0;
+}
+
+.plans__prc {
+    justify-content: center;
+}
