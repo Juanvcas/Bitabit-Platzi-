@@ -1,0 +1,23 @@
+.header, .footer {
+    padding: 0 calc(50% - 51.2rem);
+}
+
+.main__exch-cont {
+    padding: 6rem calc(50% - 51.2rem) 6.5rem;
+}
+
+.main__prod-dtl {
+    padding: 6.5rem calc(50% - 51.2rem) 4.5rem;
+}
+
+.main__prod-dtl > span {
+    margin: 0 calc(51.2rem - 4rem/2);
+}
+
+.footer__sct {
+    margin-left: 6.5rem;
+}
+
+.footer__logo {
+    margin-right: 6.5rem;
+}
