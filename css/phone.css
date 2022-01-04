@@ -448,3 +448,154 @@ Convención Recomendada
     line-height: 1.8rem;
     color: #808080;
 }
+
+/* Image */
+
+.main__bit-img {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    padding-top: 6.5rem;
+    background-image: url(https://i.postimg.cc/nhnZTVzk/bitcoinbaby-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main__bit-img > h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+/* Plans */
+
+.main__plans {
+    width: 100%;
+    height: auto;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+    background-color: var(--offWhite);
+}
+
+.main__plans-ttl {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main__plans-ttl > h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--wBlack);
+}
+
+.main__plans-ttl > p {
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--offGray);
+}
+
+/* Plans Cards */
+
+.plans__prc {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+}
+
+.plans__prc-art > p {
+    position: absolute;
+    width: 10rem;
+    height: 3rem;
+    padding: .8rem;
+    margin: 0 calc(50% - 5rem);
+    top: -1.5rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    color: var(--white);
+    background-color: var(--bitOrange);
+    border-radius: .5rem
+}
+
+.plans__prc-cont {
+    width: 19rem;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plans__prc-cont > h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.plans__prc-cont p:nth-child(2) {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 4.2rem;
+    letter-spacing: -.4rem;
+}
+
+.plans__prc-cont p:nth-child(2) span {
+    margin-right: .4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: normal;
+    color: #363636;
+}
+
+.plans__prc-cont p:nth-child(3) {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.45rem;
+    color: var(--offGray);
+}
+
+.plans__prc-cont > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 5rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: var(--offWhite);
+    border: solid .2rem var(--bitOrange);
+    border-radius: .5rem;
+}
+
+.plans__prc-cont > button span {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 1.2rem;
+    background-image: url(../src/svg/arrow-right.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
